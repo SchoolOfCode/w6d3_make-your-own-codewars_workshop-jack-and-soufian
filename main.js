@@ -1,14 +1,19 @@
 /* 
 👉 Write your kata here!
 
-Here is a function that checks whether an email is valid, complete it so that it checks the email given is valid. For the purpose of this we will assume the following are valid:
+Here is a function that checks whether an email is valid, complete it so that it checks the email given is valid, returning true/false respectively. For the purpose of this we will assume the following are valid domains:
 
-____@_____.(.com/.co.uk/.org/.net)
+•.com
+•.co.uk
+•.org
+•.net
 
-function output examples:
-emailexample.com => false 
-email_example@address.com => true
-emailexample@address.com => true
+Function output examples:
+
+emailexample.com => returns false
+email_example@address.com => returns true
+emailexample@address.com => returns true
+example?email@email.com => returns false
 
 */
 
@@ -26,6 +31,6 @@ export function checkEmail(email){
 
 // plan:
 // 1. pass in an email to the function and it checks whether it has proper email syntax
-// 2. if it does return true 
+// 2. if it does return true
 // 3. if it doesnt return false
 
