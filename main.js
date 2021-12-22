@@ -15,18 +15,14 @@ email_example@address.com => returns true
 emailexample@address.com => returns true
 example?email@email.com => returns false
 
+There are 2 sets of tests, a simple set and a complex set. The complex set includes some more strict tests checking for things like symbols other than "-, _, @" and incorrect syntax order.
+
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
 
 export function checkEmail(email){
     // code here
-    if (email === "emailexample.com"){
-        return false
-    }
-    else if (email === "emailexample@address.com"){
-        return true
-    }
 }
 
 // plan:
